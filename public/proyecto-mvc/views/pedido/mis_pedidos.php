@@ -16,7 +16,7 @@
 
 		<tr>
 			<td>
-				<a href="<?= base_url ?>pedido/detalle&id=<?= $ped->id ?>"><?= $ped->id ?></a><?php //este es un enlace que me muestra el id y cuando lo toco me lleva al detalle ?>
+				<a href="<?= base_url ?>Pedido/detalle&id=<?= $ped->id ?>"><?= $ped->id ?></a><?php //este es un enlace que me muestra el id y cuando lo toco me lleva al detalle ?>
 			</td>
 			<td>
 				<?= $ped->coste ?> $

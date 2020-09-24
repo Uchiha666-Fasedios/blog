@@ -1,7 +1,7 @@
 <?php
 
 require_once 'models/producto.php';
-class productoController
+class ProductoController
 {
 
   public function index(){
@@ -97,7 +97,7 @@ public function save(){//este metodo se usa para salvar y para editar
   }else{
     $_SESSION['producto'] = "failed";
   }
-  header('Location:'.base_url.'producto/gestion');
+  header('Location:'.base_url.'Producto/gestion');
 }
 
 public function editar(){
@@ -114,7 +114,7 @@ public function editar(){
     require_once 'views/producto/crear.php';
 
   }else{
-    header('Location:'.base_url.'producto/gestion');
+    header('Location:'.base_url.'Producto/gestion');
   }
 }
 
@@ -136,7 +136,7 @@ public function eliminar(){
     $_SESSION['delete'] = 'failed';
   }
 
-  header('Location:'.base_url.'producto/gestion');
+  header('Location:'.base_url.'Producto/gestion');
 }
 
 }

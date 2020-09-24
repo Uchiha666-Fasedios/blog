@@ -1,12 +1,12 @@
 <?php if (isset($_SESSION['identity'])): //verifico si me logie?>
 	<h1>Hacer pedido</h1>
 	<p>
-		<a href="<?= base_url ?>carrito/index">Ver los productos y el precio del pedido</a><?php //regresa atras al carrito paa ver mi pedido ?>
+		<a href="<?= base_url ?>Carrito/index">Ver los productos y el precio del pedido</a><?php //regresa atras al carrito paa ver mi pedido ?>
 	</p>
 	<br/>
 
 	<h3>Dirección para el envio:</h3>
-	<form action="<?=base_url.'pedido/add'?>" method="POST">
+	<form action="<?=base_url.'Pedido/add'?>" method="POST">
 		<label for="provincia">Provincia</label>
 		<input type="text" name="provincia" required />
 

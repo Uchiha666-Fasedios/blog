@@ -1,11 +1,11 @@
 <?php if(isset($edit) && isset($pro) && is_object($pro)): //si existe la variable $edit (q al llamar a editar en el controlador se creo como true)
 	// y existe $pro q tiene el producto y is_object si es un objeto?>
 	<h1>Editar producto <?=$pro->nombre?></h1>
-	<?php $url_action = base_url."producto/save&id=".$pro->id; //guardo toda la url en la variable?>
+	<?php $url_action = base_url."Producto/save&id=".$pro->id; //guardo toda la url en la variable?>
 
 <?php else: ?>
 	<h1>Crear nuevo producto</h1>
-	<?php $url_action = base_url."producto/save"; ?>
+	<?php $url_action = base_url."Producto/save"; ?>
 <?php endif; ?>
 
 <div class="form_container">

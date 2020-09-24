@@ -29,7 +29,7 @@
 						<?php endif; ?>
 					</td>
 					<td>
-						<a href="<?= base_url ?>producto/ver&id=<?= $producto->id ?>"><?= $producto->nombre ?></a>
+						<a href="<?= base_url ?>Producto/ver&id=<?= $producto->id ?>"><?= $producto->nombre ?></a>
 					</td>
 					<td>
 						<?= $producto->precio ?>

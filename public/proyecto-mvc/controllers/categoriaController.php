@@ -4,7 +4,7 @@ require_once 'models/producto.php';
 
 
 
-class categoriaController
+class CategoriaController
 {
 
   public function index(){

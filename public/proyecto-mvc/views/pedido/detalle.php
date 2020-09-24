@@ -3,7 +3,7 @@
 <?php if (isset($pedido)): //viene del controlador con todo el pedido?>
 		<?php if(isset($_SESSION['admin'])): //si es administrador?>
 			<h3>Cambiar estado del pedido</h3>
-			<form action="<?=base_url?>pedido/estado" method="POST">
+			<form action="<?=base_url?>Pedido/estado" method="POST">
 				<input type="hidden" value="<?=$pedido->id?>" name="pedido_id"/>
 				<?php //aca hacemos un menu y depende el estado q tenga aparecera selecionado ese ?>
 				<select name="estado">
@@ -49,7 +49,7 @@ Apellidos: <?= $pedido->apellidos ?>   <br/>
 						<?php endif; ?>
 					</td>
 					<td>
-						<a href="<?= base_url ?>producto/ver&id=<?= $producto->id ?>"><?= $producto->nombre ?></a><?php //un enlace en el nombre para ver el producto con mas detalle y poder comprar nuevamente ?>
+						<a href="<?= base_url ?>Producto/ver&id=<?= $producto->id ?>"><?= $producto->nombre ?></a><?php //un enlace en el nombre para ver el producto con mas detalle y poder comprar nuevamente ?>
 					</td>
 					<td>
 						<?= $producto->precio ?>

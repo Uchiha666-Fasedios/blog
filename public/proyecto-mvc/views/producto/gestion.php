@@ -1,6 +1,6 @@
 <h1>Gestión de productos</h1>
 
-<a href="<?=base_url?>producto/crear" class="button button-small">
+<a href="<?=base_url?>Producto/crear" class="button button-small">
 	Crear producto
 </a>
 
@@ -33,8 +33,8 @@
 			<td><?=$pro->precio;?></td>
 			<td><?=$pro->stock;?></td>
 			<td>
-				<a href="<?=base_url?>producto/editar&id=<?=$pro->id?>" class="button button-gestion">Editar</a><?php //le pongo & y no ? porque este es el tercer parametro q estoy pasando por get recuerda q producto y edit son parametros en esta ocacion ?>
-				<a href="<?=base_url?>producto/eliminar&id=<?=$pro->id?>" class="button button-gestion button-red">Eliminar</a>
+				<a href="<?=base_url?>Producto/editar&id=<?=$pro->id?>" class="button button-gestion">Editar</a><?php //le pongo & y no ? porque este es el tercer parametro q estoy pasando por get recuerda q producto y edit son parametros en esta ocacion ?>
+				<a href="<?=base_url?>Producto/eliminar&id=<?=$pro->id?>" class="button button-gestion button-red">Eliminar</a>
 			</td>
 		</tr>
 	<?php endwhile; ?>

@@ -1,7 +1,7 @@
 <?php
 require_once 'models/pedido.php';
 
-class pedidoController{
+class PedidoController{
 
 	public function hacer(){
 
@@ -48,7 +48,7 @@ class pedidoController{
 				$_SESSION['pedido'] = "failed";
 			}
 
-			header("Location:".base_url.'pedido/confirmado');//voy a pedidoController y llamo al metodo confirmado
+			header("Location:".base_url.'Pedido/confirmado');//voy a pedidoController y llamo al metodo confirmado
 		}else{
 			// Redigir al index al no estar logeado
 			header("Location:".base_url);
@@ -98,7 +98,7 @@ class pedidoController{
 
 			require_once 'views/pedido/detalle.php';
 		}else{
-			header('Location:'.base_url.'pedido/mis_pedidos');
+			header('Location:'.base_url.'Pedido/mis_pedidos');
 		}
 	}
 
@@ -125,7 +125,7 @@ class pedidoController{
 			$pedido->setEstado($estado);//seteo el nuevo estado llegado del post
 			$pedido->edit();//actualiza el estado de la tabla pedidos de ese id seteado
 
-			header("Location:".base_url.'pedido/detalle&id='.$id);//lo llevo de nuevo a ver el detalle de ese pedido
+			header("Location:".base_url.'Pedido/detalle&id='.$id);//lo llevo de nuevo a ver el detalle de ese pedido
 		}else{
 			header("Location:".base_url);
 		}

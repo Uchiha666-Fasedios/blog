@@ -26,7 +26,7 @@
 			<?php endif; ?>
 		</td>
 		<td>
-			<a href="<?= base_url ?>producto/ver&id=<?=$producto->id?>"><?=$producto->nombre?></a><?php //muestro el nombre q tiene un enlace para ver el detalle del producto ?>
+			<a href="<?= base_url ?>Producto/ver&id=<?=$producto->id?>"><?=$producto->nombre?></a><?php //muestro el nombre q tiene un enlace para ver el detalle del producto ?>
 		</td>
 		<td>
 			<?=$producto->precio//muestro el precio?>
@@ -37,9 +37,9 @@
 				<?php if ($producto->stock > $elemento['unidades'])://muestro el precio): ?>
 
 
-				<a href="<?=base_url?>carrito/up&index=<?=$indice?>" class="button">+</a><?php //el indice seria 0,1,2etc.. estando recorriendo el foreach y ese indice lo voy a usar para incrementar el producto ?>
+				<a href="<?=base_url?>Carrito/up&index=<?=$indice?>" class="button">+</a><?php //el indice seria 0,1,2etc.. estando recorriendo el foreach y ese indice lo voy a usar para incrementar el producto ?>
         <?php endif; ?>
-				<a href="<?=base_url?>carrito/down&index=<?=$indice?>" class="button">-</a>
+				<a href="<?=base_url?>Carrito/down&index=<?=$indice?>" class="button">-</a>
 			</div>
 		</td>
 		<?php if (isset($_SESSION['admin'])): ?>
@@ -49,7 +49,7 @@
 		</td>
 		<?php endif; ?>
 		<td>
-			<a href="<?=base_url?>carrito/delete&index=<?=$indice?>" class="button button-carrito button-red">Quitar producto</a><?php// va al controlador q me ejecuta esta accion delete q elimina de la session carrito lo q tiene la pocicion $indice?>
+			<a href="<?=base_url?>Carrito/delete&index=<?=$indice?>" class="button button-carrito button-red">Quitar producto</a><?php// va al controlador q me ejecuta esta accion delete q elimina de la session carrito lo q tiene la pocicion $indice?>
 		</td>
 	</tr>
 
@@ -57,12 +57,12 @@
 </table>
 <br/>
 <div class="delete-carrito">
-	<a href="<?=base_url?>carrito/delete_all" class="button button-delete button-red">Vaciar carrito</a><?php// va al controlador q me ejecuta esta accion q elimina  la session carrito?>
+	<a href="<?=base_url?>Carrito/delete_all" class="button button-delete button-red">Vaciar carrito</a><?php// va al controlador q me ejecuta esta accion q elimina  la session carrito?>
 </div>
 <div class="total-carrito">
 	<?php $stats = Utils::statsCarrito(); //esta funcion static q me saca el total de plata gastada de los productos y la cantidad?>
 	<h3>Precio total: <?=$stats['total']?> $</h3>
-	<a href="<?=base_url?>pedido/hacer" class="button button-pedido">Hacer pedido</a><?php //este me dirige al controlador pedido y metodo hacer la cual me tira una vista views/pedido/hacer.php?>
+	<a href="<?=base_url?>Pedido/hacer" class="button button-pedido">Hacer pedido</a><?php //este me dirige al controlador pedido y metodo hacer la cual me tira una vista views/pedido/hacer.php?>
 </div>
 
 <?php else: ?>

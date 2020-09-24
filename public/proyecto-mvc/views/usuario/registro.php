@@ -7,7 +7,7 @@
 <?php endif; ?>
 <?php Utils::deleteSession('register'); ?>
 
-<form class="" action="<?=base_url?>usuario/save" method="post"><?php//pongo la constante base_url q es la ruta para llegar y usuario seria usuarioController y save es la accion?>
+<form class="" action="<?=base_url?>Usuario/save" method="post"><?php//pongo la constante base_url q es la ruta para llegar y usuario seria usuarioController y save es la accion?>
   <label for="nombre">Nombre</label>
   <input type="text" name="nombre" value="" required>
 

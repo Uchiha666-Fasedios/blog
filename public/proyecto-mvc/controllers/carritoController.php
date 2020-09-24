@@ -1,7 +1,7 @@
 <?php
 require_once 'models/producto.php';
 
-class carritoController{
+class CarritoController{
 
 	public function index(){
 		if(isset($_SESSION['carrito']) && count($_SESSION['carrito']) >= 1){
