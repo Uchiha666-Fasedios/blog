@@ -16,24 +16,25 @@
 
 
            <h3> El blog </h3>
-En 2020 comencé con este blog, el blog surge de mi propia curiosidad, siempre que aprendo algo me gusta apuntarlo para que no se me olvide, tener una referencia por si lo quiero utilizar en un futuro y además para también publicar contenido que no hay en Internet o que no está claro y así compartir, aportar y ayudar a los demás.
+En 2020 comencé con este blog, el blog surge de mi propia curiosidad, siempre que aprendo algo me gusta apuntarlo para que no se me olvide, tener una referencia por si lo quiero utilizar en un futuro y además para también publicar lo que he aprendido y compartirlo, ayudar a los demás que quieran comenzar a hacer algun proyecto.
 
-Básicamente este blog es mi bloc de notas online y el lugar donde está todo aquello que a mí me gustaría encontrar.
-La idea es hacer constantes aportes para que no solo me sirva a mi sino a cualquiera que este interesado en aprender y aportar lo que sabe,
-ya que el fin es aprender todo de todos.
+Básicamente este blog es mi bloc de notas online y el lugar donde está todo lo que fui aprendiendo y haciendo.
+La idea es hacer constantes aportes para que no solo me sirva a mi sino a cualquiera que este interesado en aprender,
+ya que el fin aparte de mostrar lo que voy haciendo es aportar.<br><br>
 <h3>La formación online</h3>
-Mi idea es aprender para luego impartir mis conocimientos desde este blog y en la famosa plataforma Udemy.
+Mi idea es aprender cada vez mas para luego impartir mis conocimientos desde este blog y en la famosa plataforma Udemy.
 
         Me encanta programar y todo lo relacionado con internet y las nuevas tecnologias crear cosas enseñar a los demas y aprender de los demas constantemente.
-He aprendido un monton desde intenet de forma autodidacta y quiero compartirlo con los demas.
-
+He aprendido un monton desde intenet de forma autodidacta y mi idea es compartirlo con los demas.<br><br>
+<h3>Profesión</h3>
+actualmente soy un desarrollador web freelance <br><br>
        <h3>Los estudios</h3>
 Odiaba estudiar cosas que me parecían inútiles, esa es la sensación que llevaba arrastrando años atrás, pese a ello siempre fui un buen alumno, el típico de 7.
 
 Estaba estudiando Comercial, me parecía aburrido, solamente tenía la motivación de acabarlo rápido .
 
 Cuando acabé estudié un año para administracion de empresas y lo dejé, no tenia idea que hacer hasta que un dia me harte de llevar la pc al tecnico y decidi aprender reparacion de pc,
-y descubrí mi pasion por la informatica luego de terminar el curso decidí entrar a un ciclo formativo decidiendome por ser analista de sistemas. Fue una buena decisión. A partir de aquí no e podido parar de aprender informatica.
+y luego de terminar el curso descubrí mi pasion por la informatica ,luego entre a un ciclo formativo decidiendome por ser analista de sistemas. Fue una buena decisión. A partir de aquí no e podido parar de aprender informatica.
 
 
        Luego de terminar mi formacion e estado aprendiedo constantemente de forma autodidacta para desempeñarme en el desarrollo web.

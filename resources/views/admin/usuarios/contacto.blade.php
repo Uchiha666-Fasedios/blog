@@ -31,7 +31,7 @@
     <br>
 
 
-    <a href="https://api.whatsapp.com/send?phone=5491168460245&amp;text=Hola%20adrian lisciotti,%20tengo%20una%20consulta" target="_blank">549-1168460245<img src="{{ asset('images/logos/w.jpg') }}" alt="WhatsApp"></a><br><br>
+    📘: <a href="https://api.whatsapp.com/send?phone=5491168460245&amp;text=Hola%20adrian lisciotti,%20tengo%20una%20consulta" target="_blank">whatsapp<img src="{{ asset('images/logos/w.jpg') }}" alt="WhatsApp"></a><br><br>
 
     👨‍💼: <a href="https://www.linkedin.com/in/adrian-lisciotti-ba82031aa/" target="_blank">LinkedIn<img src="{{ asset('images/logos/in.jpg') }}" alt="LinkedIn"></a><br><br>
     📑: <a href="https://www.facebook.com/adrian.lisciotti" target="_blank">Facebook <img src="{{ asset('images/logos/f.jpg') }}" alt="Facebook"></a><br><br>
