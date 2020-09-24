@@ -21,7 +21,7 @@
         "laraveles/spanish": "^1.5"
     },
     "require-dev": {
-        "barryvdh/laravel-debugbar": "^3.4",
+        
         "facade/ignition": "^1.4",
         "fzaninotto/faker": "^1.9.1",
         "mmo/faker-images": "^0.2.0",
