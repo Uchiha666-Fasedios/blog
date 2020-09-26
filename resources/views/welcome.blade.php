@@ -205,7 +205,7 @@
             <div class="row">
                 <div class="col-xs-12 col-lg-8 col-lg-offset-2">
                     <div class="section-head text-center space30">
-                        <h1 class="mbr-section-title display-4">Accordion fat</h1>
+                        <h1 class="mbr-section-title display-4">Accordion fatt</h1>
 
                     </div>
                     <div class="clearfix"></div>
