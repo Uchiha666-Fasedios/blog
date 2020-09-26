@@ -52,7 +52,7 @@
                             <div class="jsNewsCard news__card" modal-id="#{{ $articulo->id }}">
                                 <div class="news__image">
 
-                                    <img class="news__img" alt="" src="{{  asset('storage/imagenesArticulos/'.$articulo->imagenDestacada()) }}">
+                                    <img class="news__img" alt="" src="{{ url('http://www.adrianweb.live/storage/app/public/imagenesArticulos/'.$articulo->imagenDestacada()) }}">
                                 </div>
                                 <div class="news__inner">
                                     <h5 class="mbr-section-title display-6">{{ $articulo->titulo }}</h5>
@@ -78,7 +78,7 @@
                                 @if($articulo->images->first())
                                     <div class="news__image">
                                         @foreach($articulo->images as $imagen)
-                                            <img class="news__img" alt="" src="{{  asset('storage/imagenesArticulos/'.$imagen->nombre) }}">
+                                            <img class="news__img" alt="" src="{{  url('http://www.adrianweb.live/storage/app/public/imagenesArticulos/'.$imagen->nombre) }}">
                                         @endforeach
                                     </div>
                                 @endif
@@ -118,7 +118,8 @@
                         <div class="card cart-block">
 
                             <div class="col-xs-6 padding-left-0 padding-right-0">
-                                <div class="card-img iconbox"><a href="https://mobirise.com" class="cm-icon cm-icon-cloud mbr-iconfont mbr-iconfont-features16" style="color: rgb(252, 122, 96); text-shadow: rgba(0, 0, 0, 0.298039) 0px 0px 20px, rgba(0, 0, 0, 0.0980392) -10px 10px 7px;"></a></div>
+                                {{-- <div class="card-img iconbox"><a href="https://mobirise.com" class="cm-icon cm-icon-cloud mbr-iconfont mbr-iconfont-features16" style="color: rgb(252, 122, 96); text-shadow: rgba(0, 0, 0, 0.298039) 0px 0px 20px, rgba(0, 0, 0, 0.0980392) -10px 10px 7px;"></a></div> --}}
+                                <div class="card-img iconbox"><a href="#" data-toggle="modal" data-target="#ventanaModal1"><img src="{{  url('http://www.adrianweb.live/storage/img/php.jpg') }}" alt="php"></a></div> 
                             </div>
                             <div class="col-xs-6 padding-left-0 padding-right-0">
                                 <div class="text-xs-left">
@@ -135,7 +136,8 @@
                         <div class="card cart-block">
 
                             <div class="col-xs-6 padding-left-0 padding-right-0">
-                                <div class="card-img iconbox"><a href="https://mobirise.com" class="cm-icon cm-icon-note mbr-iconfont mbr-iconfont-features16" style="color: rgb(252, 122, 96); text-shadow: rgba(0, 0, 0, 0.298039) 0px 0px 20px, rgba(0, 0, 0, 0.0980392) -10px 10px 7px;"></a></div>
+                               {{-- <div class="card-img iconbox"><a href="https://mobirise.com" class="cm-icon cm-icon-note mbr-iconfont mbr-iconfont-features16" style="color: rgb(252, 122, 96); text-shadow: rgba(0, 0, 0, 0.298039) 0px 0px 20px, rgba(0, 0, 0, 0.0980392) -10px 10px 7px;"></a></div> --}}
+                               <div class="card-img iconbox"><a href="#" data-toggle="modal" data-target="#ventanaModal2"><img src="{{  url('http://www.adrianweb.live/storage/img/mysql.jpg') }}" alt="php"></a></div>
                             </div>
                             <div class="col-xs-6 padding-left-0 padding-right-0">
                                 <div class="text-xs-left">
@@ -159,7 +161,7 @@
                         <div class="card cart-block">
 
                             <div class="col-xs-6 padding-left-0 padding-right-0">
-                                <div class="card-img iconbox"><a href="https://mobirise.com" class="cm-icon cm-icon-axe mbr-iconfont mbr-iconfont-features16" style="color: rgb(252, 122, 96); text-shadow: rgba(0, 0, 0, 0.298039) 0px 0px 20px, rgba(0, 0, 0, 0.0980392) -10px 10px 7px;"></a></div>
+                            <div class="card-img iconbox"><a href="#" data-toggle="modal" data-target="#ventanaModal3"><img src="{{  url('http://www.adrianweb.live/storage/img/jquery.jpg') }}" alt="php"></a></div>
                             </div>
                             <div class="col-xs-6 padding-left-0 padding-right-0">
                                 <div class="text-xs-left">
@@ -176,7 +178,7 @@
                         <div class="card cart-block">
 
                             <div class="col-xs-6 padding-left-0 padding-right-0">
-                                <div class="card-img iconbox"><a href="https://mobirise.com" class="cm-icon cm-icon-rocket mbr-iconfont mbr-iconfont-features16" style="color: rgb(252, 122, 96); text-shadow: rgba(0, 0, 0, 0.298039) 0px 0px 20px, rgba(0, 0, 0, 0.0980392) -10px 10px 7px;"></a></div>
+                            <div class="card-img iconbox"><a href="#" data-toggle="modal" data-target="#ventanaModal4"><img src="{{  url('http://www.adrianweb.live/storage/img/css2.jpg') }}" alt="php"></a></div>
                             </div>
                             <div class="col-xs-6 padding-left-0 padding-right-0">
                                 <div class="text-xs-left">
@@ -224,7 +226,7 @@
                                 <h4 class="panel-title display-6"><a role="button" class="" data-toggle="collapse" data-parent="#accordion1-3-init" data-core="" href="#collapseTwoaccordion1-3" aria-expanded="true" aria-controls="collapseTwo">Is it good for me?</a></h4>
                             </div>
                             <div id="collapseTwoaccordion1-3" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingTwo">
-                                <div class="panel-body lead"><p>Mobirise is perfect for non-techies who are not familiar with the intricacies of web development and for designers who prefer to work as visually as possible, without fighting with code. Also great for pro-coders for fast prototyping and small customers' projects.</p></div>
+                                <div class="panel-body lead"><p>Mobirisae is perfect for non-techies who are not familiar with the intricacies of web development and for designers who prefer to work as visually as possible, without fighting with code. Also great for pro-coders for fast prototyping and small customers' projects.</p></div>
                             </div>
                         </div>
                         <div class="panel panel-default" style="display: block;">
@@ -254,8 +256,10 @@
 
 
 @include('includes.login-modal') {{-- incluimos el archivo de boostrap del login --}}
-
-
+@include('includes.ventana-modal1') {{-- incluimos el archivo de boostrap de la ventanita --}}
+@include('includes.ventana-modal2') {{-- incluimos el archivo de boostrap de la ventanita --}}
+@include('includes.ventana-modal3') {{-- incluimos el archivo de boostrap de la ventanita --}}
+@include('includes.ventana-modal4') {{-- incluimos el archivo de boostrap de la ventanita --}}
 
 @if($errors->any()) {{-- si hay un error --}}
   @section('include-login-modal') {{-- hace referencia al @yield q invoco en app.blade.php para q este codigo se ejecute ahi--}}
