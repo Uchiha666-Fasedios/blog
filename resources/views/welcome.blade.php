@@ -226,7 +226,7 @@
                                 <h4 class="panel-title display-6"><a role="button" class="" data-toggle="collapse" data-parent="#accordion1-3-init" data-core="" href="#collapseTwoaccordion1-3" aria-expanded="true" aria-controls="collapseTwo">Is it good for me?</a></h4>
                             </div>
                             <div id="collapseTwoaccordion1-3" class="panel-collapse noScroll collapse" role="tabpanel" aria-labelledby="headingTwo">
-                                <div class="panel-body lead"><p>Mobirise is perfect for non-techies who are not familiar with the intricacies of web development and for designers who prefer to work as visually as possible, without fighting with code. Also great for pro-coders for fast prototyping and small customers' projects.</p></div>
+                                <div class="panel-body lead"><p>Mobirisae is perfect for non-techies who are not familiar with the intricacies of web development and for designers who prefer to work as visually as possible, without fighting with code. Also great for pro-coders for fast prototyping and small customers' projects.</p></div>
                             </div>
                         </div>
                         <div class="panel panel-default" style="display: block;">
